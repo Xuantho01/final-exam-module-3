@@ -15,12 +15,9 @@
 <h1>Customer</h1>
 <p><a href="/system?action=create">Create new product</a></p>
 
-<form method="post">
+<form method="post" action="/system?action=search">
     <input type="text" name="nameSearch">
-    <button>
-        <a href="/system?action=search">search </a>
-    </button>
-
+    <input type="submit" value="submit">
 </form>
 
 <table border="1">
